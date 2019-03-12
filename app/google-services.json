@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "166310513843",
+    "firebase_url": "https://auth-d4d46.firebaseio.com",
+    "project_id": "auth-d4d46",
+    "storage_bucket": "auth-d4d46.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:166310513843:android:2711dac1789fb294",
+        "android_client_info": {
+          "package_name": "com.dogeun.auth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "166310513843-1i03176v7dqdf1i6q6nuhbm3g3cqrgna.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dogeun.auth",
+            "certificate_hash": "8ec12a36150f79505386eb2d6347bbf1fc6b7395"
+          }
+        },
+        {
+          "client_id": "166310513843-gk1pmrc9o9cdkhs7ovl3lhtbqnmmvjfa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwASHz-gm6BCdHFVeWsIDAE2bfKFgOeBM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "166310513843-gk1pmrc9o9cdkhs7ovl3lhtbqnmmvjfa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

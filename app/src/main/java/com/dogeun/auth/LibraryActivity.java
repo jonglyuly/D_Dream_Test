@@ -1,0 +1,41 @@
+package com.dogeun.auth;
+
+import android.app.ActionBar;
+import android.content.Intent;
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+
+public class LibraryActivity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        try {
+            getSupportActionBar().setDisplayOptions(ActionBar.DISPLAY_SHOW_CUSTOM);
+            getSupportActionBar().setCustomView(R.layout.actionbar);
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+        }
+        setContentView(R.layout.activity_library);
+
+        Button load_button = (Button) findViewById(R.id.load_button);
+        load_button.setOnClickListener(
+                new Button.OnClickListener() {
+                    public void onClick(View v) {
+                        Intent intent = new Intent(LibraryActivity.this, LoadFolderActivity.class);
+                        startActivity(intent);
+                    }
+                });
+
+        Button shooting_button = (Button) findViewById(R.id.shooting_button);
+        shooting_button.setOnClickListener(
+                new Button.OnClickListener() {
+                    public void onClick(View v) {
+                        Intent intent = new Intent(LibraryActivity.this, ShootingFolderActivity.class);
+                        startActivity(intent);
+                    }
+                });
+    }
+}

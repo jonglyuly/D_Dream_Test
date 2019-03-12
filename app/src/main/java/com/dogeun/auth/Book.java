@@ -1,0 +1,28 @@
+package com.dogeun.auth;
+
+public class Book {
+
+    public String key;
+    public String text;
+
+    public Book(String key, String text) {
+        this.key = key;
+        this.text = text;
+    }
+
+    public String getText() {
+        return text;
+    }
+
+    public void setText(String text) {
+        this.text = text;
+    }
+
+    public String getKey() {
+        return key;
+    }
+
+    public void setKey(String key) {
+        this.key = key;
+    }
+}

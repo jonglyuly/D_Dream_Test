@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dogeun.auth">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="들려Dream"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LibraryActivity" />
+        <activity android:name=".LoadFileActivity" />
+        <activity android:name=".ShootingActivity" />
+        <activity android:name=".LoadTextActivity" />
+        <activity android:name=".ShootingFSActivity" />
+        <activity android:name=".ShootingFolderActivity" />
+        <activity android:name=".ShootingFCActivity" />
+        <activity android:name=".LoadFolderActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".GeneralCaptureActivity" />
+        <activity android:name=".GuideActivity" />
+        <activity android:name=".NoticeActivity" />
+        <activity android:name=".GeneralCaptureGuideActivity" />
+        <activity android:name=".LibraryGuideActivity" />
+        <activity android:name=".FirebaseActivity"></activity>
+    </application>
+
+</manifest>
