@@ -34,7 +34,7 @@
         <activity android:name=".GeneralCaptureGuideActivity" />
         <activity android:name=".LibraryGuideActivity" />
         <activity android:name=".FirebaseActivity" />
-        <activity android:name=".DfDF"></activity>
+        <activity android:name=".FHSDHSHSF"></activity>
     </application>
 
 </manifest>
