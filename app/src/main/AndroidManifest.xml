@@ -33,7 +33,8 @@
         <activity android:name=".NoticeActivity" />
         <activity android:name=".GeneralCaptureGuideActivity" />
         <activity android:name=".LibraryGuideActivity" />
-        <activity android:name=".FirebaseActivity"></activity>
+        <activity android:name=".FirebaseActivity" />
+        <activity android:name=".DfDF"></activity>
     </application>
 
 </manifest>
