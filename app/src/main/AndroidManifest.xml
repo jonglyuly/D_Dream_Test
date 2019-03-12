@@ -34,7 +34,6 @@
         <activity android:name=".GeneralCaptureGuideActivity" />
         <activity android:name=".LibraryGuideActivity" />
         <activity android:name=".FirebaseActivity" />
-        <activity android:name=".dadgadg"></activity>
     </application>
 
 </manifest>
